@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CatClicker</title>
+  <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+  <div class="catcontainer">
+    <div id="catListContainer">
+      <div class="catListrow">
+
+      </div>
+    </div>
+    <div class="displayCatContainer">
+
+    </div>
+  </div>
+  <template id="catListtemplate">
+    <div class="listrow">
+      <span class="catNameRow">
+
+      </span>
+    </div>
+  </template>
+  <template id="catClicker">
+    <div class="catImageAndCountContainer">
+      <div class="catImage">
+        <img src="" alt="">
+      </div>
+      <div class="catName">
+        <p></p>
+      </div>
+      <span id="addCount"></span>
+    </div>
+  </template>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js/CatClickerModel.js"></script>
+  <script src="js/CatClickerDomHandler.js"></script>
+  <script src="js/CatClickerController.js"></script>
+</body>
+</html>
